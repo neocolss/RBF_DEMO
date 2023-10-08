@@ -12,7 +12,7 @@ Suite Teardown    Close Browser
 Test Setup        Go To Login Page
 ##TEST TEMPLATE : THE SAME SCENARIO BUT DIFFERENT DATA OF TEST (DATA DRIVEN TESTS)
 Test Template     Login With Invalid Credentials Should Fail
-Resource          resource.robot
+Resource    ../core/home_page_core.robot
 
 *** Test Cases ***               USER NAME        PASSWORD
 Invalid Username                 invalid          ${VALID PASSWORD}
@@ -25,9 +25,9 @@ Empty Username And Password      ${EMPTY}         ${EMPTY}
 *** Keywords ***
 Login With Invalid Credentials Should Fail
     [Arguments]    ${username}    ${password}
-    Input Username    ${username}
-    resource.Input Password    ${password}
-    Submit Credentials
+    home_page_core.Input Username    ${username}
+    home_page_core.Input Password    ${password}
+    home_page_core.Submit Credentials
     Login Should Have Failed
 
 Login Should Have Failed
