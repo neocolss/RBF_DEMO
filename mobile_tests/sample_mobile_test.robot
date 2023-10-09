@@ -25,6 +25,8 @@ Test calculator APK
     Click Element    xpath=//android.widget.Button[contains(@text,'4')]
     Click Element    xpath=//android.widget.Button[contains(@text,'=')]
     Element Text Should Be  id=com.android.calculator2:id/result     10
+    Sleep    5 seconds
+    Close Application
 
 Test Mobile Browser
     Open Application   ${REMOTE_URL}
