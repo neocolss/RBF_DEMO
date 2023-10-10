@@ -24,6 +24,8 @@ Empty Username And Password      ${EMPTY}         ${EMPTY}
 
 *** Keywords ***
 Login With Invalid Credentials Should Fail
+    [Tags]  WEB_TEST
+    [Documentation]     TEST INVALID LOGIN USING TDD STRATEGY
     [Arguments]    ${username}    ${password}
     home_page_core.Input Username    ${username}
     home_page_core.Input Password    ${password}

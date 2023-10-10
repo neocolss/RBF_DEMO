@@ -9,6 +9,8 @@ Test Teardown     Close Browser
 
 *** Test Cases ***
 Valid Login
+    [Documentation]     TEST VALID LOGIN USING GHERKIN KEYWORD STRATEGY
+    [Tags]  WEB_TEST
     Given browser is opened to login page
     When user "demo" logs in with password "mode"
     Then welcome page should be open

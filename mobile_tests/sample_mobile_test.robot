@@ -19,6 +19,8 @@ Open calculator
     ...    appPackage=${PACKAGE_NAME}
 *** Test Cases ***
 Test calculator APK
+    [Documentation]     Test Calulator apk on emulated android device
+    [Tags]  MOBILE
     Open calculator
     Click Element    xpath=//android.widget.Button[contains(@text,'6')]
     Click Element    xpath=//android.widget.Button[contains(@text,'+')]

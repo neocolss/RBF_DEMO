@@ -7,6 +7,8 @@ Resource    ../core/home_page_core.robot
 
 *** Test Cases ***
 Valid Login
+    [Documentation]     TEST VALID LOGIN
+    [Tags]  WEB_TEST
     Open Browser To Login Page
     Input Username    demo
     home_page_core.Input Password    mode

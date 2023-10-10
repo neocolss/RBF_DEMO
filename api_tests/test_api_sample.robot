@@ -9,31 +9,26 @@ Library  Collections
 
 *** Test Cases ***
 Do a GET Request and validate the response code and response body
-    [documentation]  This test case verifies that the response code of the GET Request should be 200,
-    ...  the response body contains the 'title' key with value as 'London',
-    ...  and the response body contains the key 'location_type'.
-    [tags]  Smoke
-    Create Session  mysession  https://www.metaweather.com  verify=true
-    ${response}=  GET On Session  mysession  /api/location/search/  params=query=london
-    Status Should Be  200  ${response}  #Check Status as 200
+    [documentation]  This test case verifies that the response code of the GET Request should be 200
+    [tags]  API
+    ${resp}=    GET   https://jsonplaceholder.typicode.com/posts
+    Status Should Be  200  ${resp}
+    Log to Console  "resp.json : ${resp.json()}"
+    Log to Console  ${resp.json()}[0]
 
-    #Check Title as London from Response Body
-    ${title}=  Get Value From Json  ${response.json()}[0]  title
-    ${titleFromList}=  Get From List   ${title}  0
-    Should be equal  ${titleFromList}  London
-
-    #Check location_type is present in the repsonse body
-    ${body}=  Convert To String  ${response.content}
-    Should Contain  ${body}  location_type
+    ${id}=  Get Value From Json     ${resp.json()}[0]      id
+    Log To Console    "id: ${id}"
+    ${idFromList}=  Get From List   ${id}  0
+    ${idFromListAsString}=  Convert To String  ${idFromList}
+    Should be equal As Strings  ${idFromListAsString}  1
 
 Do a POST Request and validate the response code, response body, and response headers
     [documentation]  This test case verifies that the response code of the POST Request should be 201,
     ...  the response body contains the 'id' key with value '101',
     ...  and the response header 'Content-Type' has the value 'application/json; charset=utf-8'.
-    [tags]  Regression
-    Create Session  mysession  https://jsonplaceholder.typicode.com  verify=true
+    [tags]  API
     &{body}=  Create Dictionary  title=foo  body=bar  userId=9000
-    ${resp}=  POST On Session   mysession  /posts  json=${body}
+    ${resp}=  POST  https://jsonplaceholder.typicode.com/posts  json=${body}
     Status Should Be  201  ${resp}
 
     ## Check id as 101 from Response Body
