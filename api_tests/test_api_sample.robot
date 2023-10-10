@@ -22,7 +22,7 @@ Do a GET Request and validate the response code and response body
     ${idFromListAsString}=  Convert To String  ${idFromList}
     Should be equal As Strings  ${idFromListAsString}  1
 
-Do a POST Request and validate the response code, response body, and response headers
+Do a POST Request and validate the response code response body and response headers
     [documentation]  This test case verifies that the response code of the POST Request should be 201,
     ...  the response body contains the 'id' key with value '101',
     ...  and the response header 'Content-Type' has the value 'application/json; charset=utf-8'.
