@@ -10,7 +10,7 @@ Library  Collections
 *** Test Cases ***
 Do a GET Request and validate the response code and response body
     [documentation]  This test case verifies that the response code of the GET Request should be 200
-    [tags]  API
+    [tags]  RBF-15  API
     ${resp}=    GET   https://jsonplaceholder.typicode.com/posts
     Status Should Be  200  ${resp}
     Log to Console  "resp.json : ${resp.json()}"
@@ -26,7 +26,7 @@ Do a POST Request and validate the response code response body and response head
     [documentation]  This test case verifies that the response code of the POST Request should be 201,
     ...  the response body contains the 'id' key with value '101',
     ...  and the response header 'Content-Type' has the value 'application/json; charset=utf-8'.
-    [tags]  API
+    [tags]  RBF-14  API
     &{body}=  Create Dictionary  title=foo  body=bar  userId=9000
     ${resp}=  POST  https://jsonplaceholder.typicode.com/posts  json=${body}
     Status Should Be  201  ${resp}

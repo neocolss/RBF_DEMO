@@ -14,6 +14,7 @@ class RobotListenerV2:
         self.outfile.write("%s '%s'\n" % (name, attrs['doc']))
 
     def start_test(self, name, attrs):
+        print('Start')
         tags = ' '.join(attrs['tags'])
         self.outfile.write("- %s '%s' [ %s ] :: " % (name, attrs['doc'], tags))
 

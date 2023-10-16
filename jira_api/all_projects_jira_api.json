@@ -1,0 +1,1965 @@
+{
+	"expand": "schema,names",
+	"issues": [
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+			"fields": {
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"aggregatetimeestimate": "None",
+				"aggregatetimeoriginalestimate": "None",
+				"aggregatetimespent": "None",
+				"assignee": "None",
+				"attachment": [],
+				"comment": {
+					"comments": [],
+					"maxResults": 0,
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/10035/comment",
+					"startAt": 0,
+					"total": 0
+				},
+				"components": [],
+				"created": "2023-10-13T15:39:39.529+0100",
+				"creator": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": "None",
+				"customfield_10002": "None",
+				"customfield_10003": "None",
+				"customfield_10004": "None",
+				"customfield_10005": "None",
+				"customfield_10006": "None",
+				"customfield_10007": "None",
+				"customfield_10008": "None",
+				"customfield_10009": "None",
+				"customfield_10010": "None",
+				"customfield_10014": "None",
+				"customfield_10015": "None",
+				"customfield_10016": "None",
+				"customfield_10017": "None",
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": "false",
+					"nonEditableReason": {
+						"message": "The ",
+						"reason": "PLUGIN_LICENSE_ERROR"
+					},
+					"showField": "false"
+				},
+				"customfield_10019": "0|i0007j:",
+				"customfield_10020": [
+					{
+						"boardId": 1,
+						"endDate": "2023-10-26T09:42:20.000Z",
+						"goal": "",
+						"id": 1,
+						"name": "KAN Sprint 1",
+						"startDate": "2023-10-12T09:42:25.691Z",
+						"state": "active"
+					}
+				],
+				"customfield_10021": "None",
+				"customfield_10022": "None",
+				"customfield_10023": "None",
+				"customfield_10024": "None",
+				"customfield_10025": "None",
+				"customfield_10026": "None",
+				"customfield_10027": "None",
+				"customfield_10028": "None",
+				"customfield_10029": "None",
+				"customfield_10030": "None",
+				"customfield_10032": "None",
+				"customfield_10034": "None",
+				"customfield_10035": "None",
+				"customfield_10036": "None",
+				"customfield_10037": "None",
+				"customfield_10038": "None",
+				"description": "Detailed ticket description.",
+				"duedate": "None",
+				"environment": "None",
+				"fixVersions": [],
+				"issuelinks": [],
+				"issuerestriction": {
+					"issuerestrictions": {},
+					"shouldDisplay": "True"
+				},
+				"issuetype": {
+					"avatarId": 10303,
+					"description": "Bugs track problems or ",
+					"entityId": "a8b8ba4d-177c-4ae4-84bb-ec5ca5ad1e08",
+					"hierarchyLevel": 0,
+					"iconUrl": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+					"id": "10007",
+					"name": "Bug",
+					"self": "https://squash123.atlassian.net/rest/api/2/issuetype/10007",
+					"subtask": "false"
+				},
+				"labels": [],
+				"lastViewed": "None",
+				"priority": {
+					"iconUrl": "https://squash123.atlassian.net/images/icons/priorities/medium.svg",
+					"id": "3",
+					"name": "Medium",
+					"self": "https://squash123.atlassian.net/rest/api/2/priority/3"
+				},
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"project": {
+					"avatarUrls": {
+						"16x16": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=xsmall",
+						"24x24": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=small",
+						"32x32": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=medium",
+						"48x48": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412"
+					},
+					"id": "10000",
+					"key": "RBF",
+					"name": "RBF_DEMO_PROJECT",
+					"projectTypeKey": "software",
+					"self": "https://squash123.atlassian.net/rest/api/2/project/10000",
+					"simplified": "True"
+				},
+				"reporter": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"resolution": "None",
+				"resolutiondate": "None",
+				"security": "None",
+				"status": {
+					"description": "",
+					"iconUrl": "https://squash123.atlassian.net/",
+					"id": "10000",
+					"name": "To Do",
+					"self": "https://squash123.atlassian.net/rest/api/2/status/10000",
+					"statusCategory": {
+						"colorName": "blue-gray",
+						"id": 2,
+						"key": "new",
+						"name": "To Do",
+						"self": "https://squash123.atlassian.net/rest/api/2/statuscategory/2"
+					}
+				},
+				"statuscategorychangedate": "2023-10-13T15:39:40.031+0100",
+				"subtasks": [],
+				"summary": "Testing issue from US for : RBF-2",
+				"timeestimate": "None",
+				"timeoriginalestimate": "None",
+				"timespent": "None",
+				"timetracking": {},
+				"updated": "2023-10-13T15:39:39.749+0100",
+				"versions": [],
+				"votes": {
+					"hasVoted": "false",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-10/votes",
+					"votes": 0
+				},
+				"watches": {
+					"isWatching": "True",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-10/watchers",
+					"watchCount": 1
+				},
+				"worklog": {
+					"maxResults": 20,
+					"startAt": 0,
+					"total": 0,
+					"worklogs": []
+				},
+				"workratio": -1
+			},
+			"id": "10035",
+			"key": "RBF-10",
+			"self": "https://squash123.atlassian.net/rest/api/2/issue/10035"
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+			"fields": {
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"aggregatetimeestimate": "None",
+				"aggregatetimeoriginalestimate": "None",
+				"aggregatetimespent": "None",
+				"assignee": "None",
+				"attachment": [],
+				"comment": {
+					"comments": [],
+					"maxResults": 0,
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/10034/comment",
+					"startAt": 0,
+					"total": 0
+				},
+				"components": [],
+				"created": "2023-10-13T15:34:04.664+0100",
+				"creator": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": "None",
+				"customfield_10002": "None",
+				"customfield_10003": "None",
+				"customfield_10004": "None",
+				"customfield_10005": "None",
+				"customfield_10006": "None",
+				"customfield_10007": "None",
+				"customfield_10008": "None",
+				"customfield_10009": "None",
+				"customfield_10010": "None",
+				"customfield_10014": "None",
+				"customfield_10015": "None",
+				"customfield_10016": "None",
+				"customfield_10017": "None",
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": "false",
+					"nonEditableReason": {
+						"message": "The ",
+						"reason": "PLUGIN_LICENSE_ERROR"
+					},
+					"showField": "false"
+				},
+				"customfield_10019": "0|i0007b:",
+				"customfield_10020": [
+					{
+						"boardId": 1,
+						"endDate": "2023-10-26T09:42:20.000Z",
+						"goal": "",
+						"id": 1,
+						"name": "KAN Sprint 1",
+						"startDate": "2023-10-12T09:42:25.691Z",
+						"state": "active"
+					}
+				],
+				"customfield_10021": "None",
+				"customfield_10022": "None",
+				"customfield_10023": "None",
+				"customfield_10024": "None",
+				"customfield_10025": "None",
+				"customfield_10026": "None",
+				"customfield_10027": "None",
+				"customfield_10028": "None",
+				"customfield_10029": "None",
+				"customfield_10030": "None",
+				"customfield_10032": "None",
+				"customfield_10034": "None",
+				"customfield_10035": "None",
+				"customfield_10036": "None",
+				"customfield_10037": "None",
+				"customfield_10038": "None",
+				"description": "Detailed ticket description.",
+				"duedate": "None",
+				"environment": "None",
+				"fixVersions": [],
+				"issuelinks": [],
+				"issuerestriction": {
+					"issuerestrictions": {},
+					"shouldDisplay": "True"
+				},
+				"issuetype": {
+					"avatarId": 10303,
+					"description": "Bugs track problems or ",
+					"entityId": "a8b8ba4d-177c-4ae4-84bb-ec5ca5ad1e08",
+					"hierarchyLevel": 0,
+					"iconUrl": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+					"id": "10007",
+					"name": "Bug",
+					"self": "https://squash123.atlassian.net/rest/api/2/issuetype/10007",
+					"subtask": "false"
+				},
+				"labels": [],
+				"lastViewed": "None",
+				"priority": {
+					"iconUrl": "https://squash123.atlassian.net/images/icons/priorities/medium.svg",
+					"id": "3",
+					"name": "Medium",
+					"self": "https://squash123.atlassian.net/rest/api/2/priority/3"
+				},
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"project": {
+					"avatarUrls": {
+						"16x16": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=xsmall",
+						"24x24": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=small",
+						"32x32": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=medium",
+						"48x48": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412"
+					},
+					"id": "10000",
+					"key": "RBF",
+					"name": "RBF_DEMO_PROJECT",
+					"projectTypeKey": "software",
+					"self": "https://squash123.atlassian.net/rest/api/2/project/10000",
+					"simplified": "True"
+				},
+				"reporter": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"resolution": "None",
+				"resolutiondate": "None",
+				"security": "None",
+				"status": {
+					"description": "",
+					"iconUrl": "https://squash123.atlassian.net/",
+					"id": "10000",
+					"name": "To Do",
+					"self": "https://squash123.atlassian.net/rest/api/2/status/10000",
+					"statusCategory": {
+						"colorName": "blue-gray",
+						"id": 2,
+						"key": "new",
+						"name": "To Do",
+						"self": "https://squash123.atlassian.net/rest/api/2/statuscategory/2"
+					}
+				},
+				"statuscategorychangedate": "2023-10-13T15:34:05.169+0100",
+				"subtasks": [],
+				"summary": "Testing issue from US for : RBF-2",
+				"timeestimate": "None",
+				"timeoriginalestimate": "None",
+				"timespent": "None",
+				"timetracking": {},
+				"updated": "2023-10-13T15:34:04.981+0100",
+				"versions": [],
+				"votes": {
+					"hasVoted": "false",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-9/votes",
+					"votes": 0
+				},
+				"watches": {
+					"isWatching": "True",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-9/watchers",
+					"watchCount": 1
+				},
+				"worklog": {
+					"maxResults": 20,
+					"startAt": 0,
+					"total": 0,
+					"worklogs": []
+				},
+				"workratio": -1
+			},
+			"id": "10034",
+			"key": "RBF-9",
+			"self": "https://squash123.atlassian.net/rest/api/2/issue/10034"
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+			"fields": {
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"aggregatetimeestimate": "None",
+				"aggregatetimeoriginalestimate": "None",
+				"aggregatetimespent": "None",
+				"assignee": "None",
+				"attachment": [],
+				"comment": {
+					"comments": [],
+					"maxResults": 0,
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/10033/comment",
+					"startAt": 0,
+					"total": 0
+				},
+				"components": [],
+				"created": "2023-10-13T14:56:52.337+0100",
+				"creator": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": "None",
+				"customfield_10002": "None",
+				"customfield_10003": "None",
+				"customfield_10004": "None",
+				"customfield_10005": "None",
+				"customfield_10006": "None",
+				"customfield_10007": "None",
+				"customfield_10008": "None",
+				"customfield_10009": "None",
+				"customfield_10010": "None",
+				"customfield_10014": "None",
+				"customfield_10015": "None",
+				"customfield_10016": "None",
+				"customfield_10017": "None",
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": "false",
+					"nonEditableReason": {
+						"message": "The ",
+						"reason": "PLUGIN_LICENSE_ERROR"
+					},
+					"showField": "false"
+				},
+				"customfield_10019": "0|i00073:",
+				"customfield_10020": "None",
+				"customfield_10021": "None",
+				"customfield_10022": "None",
+				"customfield_10023": "None",
+				"customfield_10024": "None",
+				"customfield_10025": "None",
+				"customfield_10026": "None",
+				"customfield_10027": "None",
+				"customfield_10028": "None",
+				"customfield_10029": "None",
+				"customfield_10030": "None",
+				"customfield_10032": "None",
+				"customfield_10034": "None",
+				"customfield_10035": "None",
+				"customfield_10036": "None",
+				"customfield_10037": "None",
+				"customfield_10038": "None",
+				"description": "Detailed ticket description.",
+				"duedate": "None",
+				"environment": "None",
+				"fixVersions": [],
+				"issuelinks": [],
+				"issuerestriction": {
+					"issuerestrictions": {},
+					"shouldDisplay": "True"
+				},
+				"issuetype": {
+					"avatarId": 10303,
+					"description": "Bugs track problems or ",
+					"entityId": "a8b8ba4d-177c-4ae4-84bb-ec5ca5ad1e08",
+					"hierarchyLevel": 0,
+					"iconUrl": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+					"id": "10007",
+					"name": "Bug",
+					"self": "https://squash123.atlassian.net/rest/api/2/issuetype/10007",
+					"subtask": "false"
+				},
+				"labels": [],
+				"lastViewed": "2023-10-13T15:14:15.270+0100",
+				"priority": {
+					"iconUrl": "https://squash123.atlassian.net/images/icons/priorities/medium.svg",
+					"id": "3",
+					"name": "Medium",
+					"self": "https://squash123.atlassian.net/rest/api/2/priority/3"
+				},
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"project": {
+					"avatarUrls": {
+						"16x16": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=xsmall",
+						"24x24": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=small",
+						"32x32": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=medium",
+						"48x48": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412"
+					},
+					"id": "10000",
+					"key": "RBF",
+					"name": "RBF_DEMO_PROJECT",
+					"projectTypeKey": "software",
+					"self": "https://squash123.atlassian.net/rest/api/2/project/10000",
+					"simplified": "True"
+				},
+				"reporter": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"resolution": "None",
+				"resolutiondate": "None",
+				"security": "None",
+				"status": {
+					"description": "",
+					"iconUrl": "https://squash123.atlassian.net/",
+					"id": "10000",
+					"name": "To Do",
+					"self": "https://squash123.atlassian.net/rest/api/2/status/10000",
+					"statusCategory": {
+						"colorName": "blue-gray",
+						"id": 2,
+						"key": "new",
+						"name": "To Do",
+						"self": "https://squash123.atlassian.net/rest/api/2/statuscategory/2"
+					}
+				},
+				"statuscategorychangedate": "2023-10-13T14:56:52.862+0100",
+				"subtasks": [],
+				"summary": "Testing issue from US for :RBF-2",
+				"timeestimate": "None",
+				"timeoriginalestimate": "None",
+				"timespent": "None",
+				"timetracking": {},
+				"updated": "2023-10-13T14:56:52.775+0100",
+				"versions": [],
+				"votes": {
+					"hasVoted": "false",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-8/votes",
+					"votes": 0
+				},
+				"watches": {
+					"isWatching": "True",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-8/watchers",
+					"watchCount": 1
+				},
+				"worklog": {
+					"maxResults": 20,
+					"startAt": 0,
+					"total": 0,
+					"worklogs": []
+				},
+				"workratio": -1
+			},
+			"id": "10033",
+			"key": "RBF-8",
+			"self": "https://squash123.atlassian.net/rest/api/2/issue/10033"
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+			"fields": {
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"aggregatetimeestimate": "None",
+				"aggregatetimeoriginalestimate": "None",
+				"aggregatetimespent": "None",
+				"assignee": "None",
+				"attachment": [],
+				"comment": {
+					"comments": [],
+					"maxResults": 0,
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/10028/comment",
+					"startAt": 0,
+					"total": 0
+				},
+				"components": [],
+				"created": "2023-10-12T16:44:27.838+0100",
+				"creator": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": "None",
+				"customfield_10002": "None",
+				"customfield_10003": "None",
+				"customfield_10004": "None",
+				"customfield_10005": "None",
+				"customfield_10006": "None",
+				"customfield_10007": "None",
+				"customfield_10008": "None",
+				"customfield_10009": "None",
+				"customfield_10010": "None",
+				"customfield_10014": "None",
+				"customfield_10015": "None",
+				"customfield_10016": "None",
+				"customfield_10017": "None",
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": "false",
+					"nonEditableReason": {
+						"message": "The ",
+						"reason": "PLUGIN_LICENSE_ERROR"
+					},
+					"showField": "false"
+				},
+				"customfield_10019": "0|i0005z:",
+				"customfield_10020": "None",
+				"customfield_10021": "None",
+				"customfield_10022": "None",
+				"customfield_10023": "None",
+				"customfield_10024": "None",
+				"customfield_10025": "None",
+				"customfield_10026": "None",
+				"customfield_10027": "None",
+				"customfield_10028": "None",
+				"customfield_10029": "None",
+				"customfield_10030": "None",
+				"customfield_10032": "None",
+				"customfield_10034": "None",
+				"customfield_10035": "None",
+				"customfield_10036": "None",
+				"customfield_10037": "None",
+				"customfield_10038": "None",
+				"description": "None",
+				"duedate": "None",
+				"environment": "None",
+				"fixVersions": [],
+				"issuelinks": [],
+				"issuerestriction": {
+					"issuerestrictions": {},
+					"shouldDisplay": "True"
+				},
+				"issuetype": {
+					"avatarId": 10303,
+					"description": "Bugs track problems or ",
+					"entityId": "a8b8ba4d-177c-4ae4-84bb-ec5ca5ad1e08",
+					"hierarchyLevel": 0,
+					"iconUrl": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+					"id": "10007",
+					"name": "Bug",
+					"self": "https://squash123.atlassian.net/rest/api/2/issuetype/10007",
+					"subtask": "false"
+				},
+				"labels": [],
+				"lastViewed": "2023-10-13T15:16:19.152+0100",
+				"priority": {
+					"iconUrl": "https://squash123.atlassian.net/images/icons/priorities/medium.svg",
+					"id": "3",
+					"name": "Medium",
+					"self": "https://squash123.atlassian.net/rest/api/2/priority/3"
+				},
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"project": {
+					"avatarUrls": {
+						"16x16": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=xsmall",
+						"24x24": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=small",
+						"32x32": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=medium",
+						"48x48": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412"
+					},
+					"id": "10000",
+					"key": "RBF",
+					"name": "RBF_DEMO_PROJECT",
+					"projectTypeKey": "software",
+					"self": "https://squash123.atlassian.net/rest/api/2/project/10000",
+					"simplified": "True"
+				},
+				"reporter": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"resolution": "None",
+				"resolutiondate": "None",
+				"security": "None",
+				"status": {
+					"description": "",
+					"iconUrl": "https://squash123.atlassian.net/",
+					"id": "10000",
+					"name": "To Do",
+					"self": "https://squash123.atlassian.net/rest/api/2/status/10000",
+					"statusCategory": {
+						"colorName": "blue-gray",
+						"id": 2,
+						"key": "new",
+						"name": "To Do",
+						"self": "https://squash123.atlassian.net/rest/api/2/statuscategory/2"
+					}
+				},
+				"statuscategorychangedate": "2023-10-12T16:44:28.129+0100",
+				"subtasks": [],
+				"summary": "Test 3 gherking valid login",
+				"timeestimate": "None",
+				"timeoriginalestimate": "None",
+				"timespent": "None",
+				"timetracking": {},
+				"updated": "2023-10-12T16:44:28.059+0100",
+				"versions": [],
+				"votes": {
+					"hasVoted": "false",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-7/votes",
+					"votes": 0
+				},
+				"watches": {
+					"isWatching": "True",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-7/watchers",
+					"watchCount": 1
+				},
+				"worklog": {
+					"maxResults": 20,
+					"startAt": 0,
+					"total": 0,
+					"worklogs": []
+				},
+				"workratio": -1
+			},
+			"id": "10028",
+			"key": "RBF-7",
+			"self": "https://squash123.atlassian.net/rest/api/2/issue/10028"
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+			"fields": {
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"aggregatetimeestimate": "None",
+				"aggregatetimeoriginalestimate": "None",
+				"aggregatetimespent": "None",
+				"assignee": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"attachment": [],
+				"comment": {
+					"comments": [],
+					"maxResults": 0,
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/10027/comment",
+					"startAt": 0,
+					"total": 0
+				},
+				"components": [],
+				"created": "2023-10-12T16:43:46.392+0100",
+				"creator": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": "None",
+				"customfield_10002": "None",
+				"customfield_10003": "None",
+				"customfield_10004": "None",
+				"customfield_10005": "None",
+				"customfield_10006": "None",
+				"customfield_10007": "None",
+				"customfield_10008": "None",
+				"customfield_10009": "None",
+				"customfield_10010": "None",
+				"customfield_10014": "None",
+				"customfield_10015": "None",
+				"customfield_10016": "None",
+				"customfield_10017": "None",
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": "false",
+					"nonEditableReason": {
+						"message": "The ",
+						"reason": "PLUGIN_LICENSE_ERROR"
+					},
+					"showField": "false"
+				},
+				"customfield_10019": "0|i0005r:",
+				"customfield_10020": "None",
+				"customfield_10021": "None",
+				"customfield_10022": "None",
+				"customfield_10023": "None",
+				"customfield_10024": "None",
+				"customfield_10025": "None",
+				"customfield_10026": "None",
+				"customfield_10027": "None",
+				"customfield_10028": "None",
+				"customfield_10029": "None",
+				"customfield_10030": "None",
+				"customfield_10032": "None",
+				"customfield_10034": "None",
+				"customfield_10035": "None",
+				"customfield_10036": "None",
+				"customfield_10037": "None",
+				"customfield_10038": "None",
+				"description": "None",
+				"duedate": "None",
+				"environment": "None",
+				"fixVersions": [],
+				"issuelinks": [],
+				"issuerestriction": {
+					"issuerestrictions": {},
+					"shouldDisplay": "True"
+				},
+				"issuetype": {
+					"avatarId": 10303,
+					"description": "Bugs track problems or ",
+					"entityId": "a8b8ba4d-177c-4ae4-84bb-ec5ca5ad1e08",
+					"hierarchyLevel": 0,
+					"iconUrl": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+					"id": "10007",
+					"name": "Bug",
+					"self": "https://squash123.atlassian.net/rest/api/2/issuetype/10007",
+					"subtask": "false"
+				},
+				"labels": [],
+				"lastViewed": "2023-10-13T14:47:48.424+0100",
+				"priority": {
+					"iconUrl": "https://squash123.atlassian.net/images/icons/priorities/medium.svg",
+					"id": "3",
+					"name": "Medium",
+					"self": "https://squash123.atlassian.net/rest/api/2/priority/3"
+				},
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"project": {
+					"avatarUrls": {
+						"16x16": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=xsmall",
+						"24x24": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=small",
+						"32x32": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=medium",
+						"48x48": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412"
+					},
+					"id": "10000",
+					"key": "RBF",
+					"name": "RBF_DEMO_PROJECT",
+					"projectTypeKey": "software",
+					"self": "https://squash123.atlassian.net/rest/api/2/project/10000",
+					"simplified": "True"
+				},
+				"reporter": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"resolution": "None",
+				"resolutiondate": "None",
+				"security": "None",
+				"status": {
+					"description": "",
+					"iconUrl": "https://squash123.atlassian.net/",
+					"id": "10000",
+					"name": "To Do",
+					"self": "https://squash123.atlassian.net/rest/api/2/status/10000",
+					"statusCategory": {
+						"colorName": "blue-gray",
+						"id": 2,
+						"key": "new",
+						"name": "To Do",
+						"self": "https://squash123.atlassian.net/rest/api/2/statuscategory/2"
+					}
+				},
+				"statuscategorychangedate": "2023-10-12T16:43:46.643+0100",
+				"subtasks": [],
+				"summary": "Test 2 Gherking Login",
+				"timeestimate": "None",
+				"timeoriginalestimate": "None",
+				"timespent": "None",
+				"timetracking": {},
+				"updated": "2023-10-12T16:43:46.710+0100",
+				"versions": [],
+				"votes": {
+					"hasVoted": "false",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-6/votes",
+					"votes": 0
+				},
+				"watches": {
+					"isWatching": "True",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-6/watchers",
+					"watchCount": 1
+				},
+				"worklog": {
+					"maxResults": 20,
+					"startAt": 0,
+					"total": 0,
+					"worklogs": []
+				},
+				"workratio": -1
+			},
+			"id": "10027",
+			"key": "RBF-6",
+			"self": "https://squash123.atlassian.net/rest/api/2/issue/10027"
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+			"fields": {
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"aggregatetimeestimate": "None",
+				"aggregatetimeoriginalestimate": "None",
+				"aggregatetimespent": "None",
+				"assignee": "None",
+				"attachment": [],
+				"comment": {
+					"comments": [],
+					"maxResults": 0,
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/10026/comment",
+					"startAt": 0,
+					"total": 0
+				},
+				"components": [],
+				"created": "2023-10-12T16:36:50.422+0100",
+				"creator": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": "None",
+				"customfield_10002": "None",
+				"customfield_10003": "None",
+				"customfield_10004": "None",
+				"customfield_10005": "None",
+				"customfield_10006": "None",
+				"customfield_10007": "None",
+				"customfield_10008": "None",
+				"customfield_10009": "None",
+				"customfield_10010": "None",
+				"customfield_10014": "None",
+				"customfield_10015": "None",
+				"customfield_10016": "None",
+				"customfield_10017": "None",
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": "false",
+					"nonEditableReason": {
+						"message": "The ",
+						"reason": "PLUGIN_LICENSE_ERROR"
+					},
+					"showField": "false"
+				},
+				"customfield_10019": "0|i0005j:",
+				"customfield_10020": "None",
+				"customfield_10021": "None",
+				"customfield_10022": "None",
+				"customfield_10023": "None",
+				"customfield_10024": "None",
+				"customfield_10025": "None",
+				"customfield_10026": "None",
+				"customfield_10027": "None",
+				"customfield_10028": "None",
+				"customfield_10029": "None",
+				"customfield_10030": "None",
+				"customfield_10032": "None",
+				"customfield_10034": "None",
+				"customfield_10035": "None",
+				"customfield_10036": "None",
+				"customfield_10037": "None",
+				"customfield_10038": "None",
+				"description": "None",
+				"duedate": "None",
+				"environment": "None",
+				"fixVersions": [],
+				"issuelinks": [],
+				"issuerestriction": {
+					"issuerestrictions": {},
+					"shouldDisplay": "True"
+				},
+				"issuetype": {
+					"avatarId": 10318,
+					"description": "Tasks track small, ",
+					"entityId": "f2192599-bebe-439d-935a-0fb486bd305b",
+					"hierarchyLevel": 0,
+					"iconUrl": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+					"id": "10001",
+					"name": "Task",
+					"self": "https://squash123.atlassian.net/rest/api/2/issuetype/10001",
+					"subtask": "false"
+				},
+				"labels": [],
+				"lastViewed": "2023-10-12T16:36:50.695+0100",
+				"priority": {
+					"iconUrl": "https://squash123.atlassian.net/images/icons/priorities/medium.svg",
+					"id": "3",
+					"name": "Medium",
+					"self": "https://squash123.atlassian.net/rest/api/2/priority/3"
+				},
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"project": {
+					"avatarUrls": {
+						"16x16": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=xsmall",
+						"24x24": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=small",
+						"32x32": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=medium",
+						"48x48": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412"
+					},
+					"id": "10000",
+					"key": "RBF",
+					"name": "RBF_DEMO_PROJECT",
+					"projectTypeKey": "software",
+					"self": "https://squash123.atlassian.net/rest/api/2/project/10000",
+					"simplified": "True"
+				},
+				"reporter": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"resolution": "None",
+				"resolutiondate": "None",
+				"security": "None",
+				"status": {
+					"description": "",
+					"iconUrl": "https://squash123.atlassian.net/",
+					"id": "10000",
+					"name": "To Do",
+					"self": "https://squash123.atlassian.net/rest/api/2/status/10000",
+					"statusCategory": {
+						"colorName": "blue-gray",
+						"id": 2,
+						"key": "new",
+						"name": "To Do",
+						"self": "https://squash123.atlassian.net/rest/api/2/statuscategory/2"
+					}
+				},
+				"statuscategorychangedate": "2023-10-12T16:36:50.683+0100",
+				"subtasks": [],
+				"summary": "Test gherking valid login",
+				"timeestimate": "None",
+				"timeoriginalestimate": "None",
+				"timespent": "None",
+				"timetracking": {},
+				"updated": "2023-10-12T16:36:50.576+0100",
+				"versions": [],
+				"votes": {
+					"hasVoted": "false",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-5/votes",
+					"votes": 0
+				},
+				"watches": {
+					"isWatching": "True",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-5/watchers",
+					"watchCount": 1
+				},
+				"worklog": {
+					"maxResults": 20,
+					"startAt": 0,
+					"total": 0,
+					"worklogs": []
+				},
+				"workratio": -1
+			},
+			"id": "10026",
+			"key": "RBF-5",
+			"self": "https://squash123.atlassian.net/rest/api/2/issue/10026"
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+			"fields": {
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"aggregatetimeestimate": "None",
+				"aggregatetimeoriginalestimate": "None",
+				"aggregatetimespent": "None",
+				"assignee": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"attachment": [],
+				"comment": {
+					"comments": [],
+					"maxResults": 0,
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/10025/comment",
+					"startAt": 0,
+					"total": 0
+				},
+				"components": [],
+				"created": "2023-10-12T13:58:35.505+0100",
+				"creator": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": "None",
+				"customfield_10002": "None",
+				"customfield_10003": "None",
+				"customfield_10004": "None",
+				"customfield_10005": "None",
+				"customfield_10006": "None",
+				"customfield_10007": "None",
+				"customfield_10008": "None",
+				"customfield_10009": "None",
+				"customfield_10010": "None",
+				"customfield_10014": "None",
+				"customfield_10015": "None",
+				"customfield_10016": "None",
+				"customfield_10017": "None",
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": "false",
+					"nonEditableReason": {
+						"message": "The ",
+						"reason": "PLUGIN_LICENSE_ERROR"
+					},
+					"showField": "false"
+				},
+				"customfield_10019": "0|i0005b:",
+				"customfield_10020": [
+					{
+						"boardId": 1,
+						"endDate": "2023-10-26T09:42:20.000Z",
+						"goal": "",
+						"id": 1,
+						"name": "KAN Sprint 1",
+						"startDate": "2023-10-12T09:42:25.691Z",
+						"state": "active"
+					}
+				],
+				"customfield_10021": "None",
+				"customfield_10022": "None",
+				"customfield_10023": "None",
+				"customfield_10024": "None",
+				"customfield_10025": "None",
+				"customfield_10026": "None",
+				"customfield_10027": "None",
+				"customfield_10028": "None",
+				"customfield_10029": "None",
+				"customfield_10030": "None",
+				"customfield_10032": "None",
+				"customfield_10034": "None",
+				"customfield_10035": "None",
+				"customfield_10036": "None",
+				"customfield_10037": "None",
+				"customfield_10038": "None",
+				"description": "None",
+				"duedate": "None",
+				"environment": "None",
+				"fixVersions": [],
+				"issuelinks": [],
+				"issuerestriction": {
+					"issuerestrictions": {},
+					"shouldDisplay": "True"
+				},
+				"issuetype": {
+					"avatarId": 10303,
+					"description": "Bugs track problems or ",
+					"entityId": "a8b8ba4d-177c-4ae4-84bb-ec5ca5ad1e08",
+					"hierarchyLevel": 0,
+					"iconUrl": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+					"id": "10007",
+					"name": "Bug",
+					"self": "https://squash123.atlassian.net/rest/api/2/issuetype/10007",
+					"subtask": "false"
+				},
+				"labels": [],
+				"lastViewed": "2023-10-13T15:17:03.567+0100",
+				"priority": {
+					"iconUrl": "https://squash123.atlassian.net/images/icons/priorities/medium.svg",
+					"id": "3",
+					"name": "Medium",
+					"self": "https://squash123.atlassian.net/rest/api/2/priority/3"
+				},
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"project": {
+					"avatarUrls": {
+						"16x16": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=xsmall",
+						"24x24": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=small",
+						"32x32": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=medium",
+						"48x48": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412"
+					},
+					"id": "10000",
+					"key": "RBF",
+					"name": "RBF_DEMO_PROJECT",
+					"projectTypeKey": "software",
+					"self": "https://squash123.atlassian.net/rest/api/2/project/10000",
+					"simplified": "True"
+				},
+				"reporter": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"resolution": "None",
+				"resolutiondate": "None",
+				"security": "None",
+				"status": {
+					"description": "",
+					"iconUrl": "https://squash123.atlassian.net/",
+					"id": "10001",
+					"name": "In Progress",
+					"self": "https://squash123.atlassian.net/rest/api/2/status/10001",
+					"statusCategory": {
+						"colorName": "yellow",
+						"id": 4,
+						"key": "indeterminate",
+						"name": "In Progress",
+						"self": "https://squash123.atlassian.net/rest/api/2/statuscategory/4"
+					}
+				},
+				"statuscategorychangedate": "2023-10-12T13:58:48.102+0100",
+				"subtasks": [],
+				"summary": "Bug in Gherking Valid Login",
+				"timeestimate": "None",
+				"timeoriginalestimate": "None",
+				"timespent": "None",
+				"timetracking": {},
+				"updated": "2023-10-12T13:58:50.005+0100",
+				"versions": [],
+				"votes": {
+					"hasVoted": "false",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-4/votes",
+					"votes": 0
+				},
+				"watches": {
+					"isWatching": "True",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-4/watchers",
+					"watchCount": 1
+				},
+				"worklog": {
+					"maxResults": 20,
+					"startAt": 0,
+					"total": 0,
+					"worklogs": []
+				},
+				"workratio": -1
+			},
+			"id": "10025",
+			"key": "RBF-4",
+			"self": "https://squash123.atlassian.net/rest/api/2/issue/10025"
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+			"fields": {
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"aggregatetimeestimate": "None",
+				"aggregatetimeoriginalestimate": "None",
+				"aggregatetimespent": "None",
+				"assignee": "None",
+				"attachment": [],
+				"comment": {
+					"comments": [],
+					"maxResults": 0,
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/10024/comment",
+					"startAt": 0,
+					"total": 0
+				},
+				"components": [],
+				"created": "2023-10-12T13:46:56.980+0100",
+				"creator": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": "None",
+				"customfield_10002": "None",
+				"customfield_10003": "None",
+				"customfield_10004": "None",
+				"customfield_10005": "None",
+				"customfield_10006": "None",
+				"customfield_10007": "None",
+				"customfield_10008": "None",
+				"customfield_10009": "None",
+				"customfield_10010": "None",
+				"customfield_10014": "None",
+				"customfield_10015": "None",
+				"customfield_10016": "None",
+				"customfield_10017": "None",
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": "false",
+					"nonEditableReason": {
+						"message": "The ",
+						"reason": "PLUGIN_LICENSE_ERROR"
+					},
+					"showField": "false"
+				},
+				"customfield_10019": "0|i00053:",
+				"customfield_10020": "None",
+				"customfield_10021": "None",
+				"customfield_10022": "None",
+				"customfield_10023": "None",
+				"customfield_10024": "None",
+				"customfield_10025": "None",
+				"customfield_10026": "None",
+				"customfield_10027": "None",
+				"customfield_10028": "None",
+				"customfield_10029": "None",
+				"customfield_10030": "None",
+				"customfield_10032": "None",
+				"customfield_10034": "None",
+				"customfield_10035": "None",
+				"customfield_10036": "None",
+				"customfield_10037": "None",
+				"customfield_10038": "None",
+				"description": "None",
+				"duedate": "None",
+				"environment": "None",
+				"fixVersions": [],
+				"issuelinks": [],
+				"issuerestriction": {
+					"issuerestrictions": {},
+					"shouldDisplay": "True"
+				},
+				"issuetype": {
+					"avatarId": 10307,
+					"description": "Epics track collections ",
+					"entityId": "30a56d15-814c-4464-b03c-b7232efa8a35",
+					"hierarchyLevel": 1,
+					"iconUrl": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+					"id": "10002",
+					"name": "Epic",
+					"self": "https://squash123.atlassian.net/rest/api/2/issuetype/10002",
+					"subtask": "false"
+				},
+				"labels": [],
+				"lastViewed": "2023-10-12T13:48:18.221+0100",
+				"priority": {
+					"iconUrl": "https://squash123.atlassian.net/images/icons/priorities/medium.svg",
+					"id": "3",
+					"name": "Medium",
+					"self": "https://squash123.atlassian.net/rest/api/2/priority/3"
+				},
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"project": {
+					"avatarUrls": {
+						"16x16": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=xsmall",
+						"24x24": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=small",
+						"32x32": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=medium",
+						"48x48": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412"
+					},
+					"id": "10000",
+					"key": "RBF",
+					"name": "RBF_DEMO_PROJECT",
+					"projectTypeKey": "software",
+					"self": "https://squash123.atlassian.net/rest/api/2/project/10000",
+					"simplified": "True"
+				},
+				"reporter": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"resolution": "None",
+				"resolutiondate": "None",
+				"security": "None",
+				"status": {
+					"description": "",
+					"iconUrl": "https://squash123.atlassian.net/",
+					"id": "10000",
+					"name": "To Do",
+					"self": "https://squash123.atlassian.net/rest/api/2/status/10000",
+					"statusCategory": {
+						"colorName": "blue-gray",
+						"id": 2,
+						"key": "new",
+						"name": "To Do",
+						"self": "https://squash123.atlassian.net/rest/api/2/statuscategory/2"
+					}
+				},
+				"statuscategorychangedate": "2023-10-12T13:46:57.334+0100",
+				"subtasks": [],
+				"summary": "WEB TESTS DEMO",
+				"timeestimate": "None",
+				"timeoriginalestimate": "None",
+				"timespent": "None",
+				"timetracking": {},
+				"updated": "2023-10-12T13:46:57.257+0100",
+				"versions": [],
+				"votes": {
+					"hasVoted": "false",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-3/votes",
+					"votes": 0
+				},
+				"watches": {
+					"isWatching": "True",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-3/watchers",
+					"watchCount": 1
+				},
+				"worklog": {
+					"maxResults": 20,
+					"startAt": 0,
+					"total": 0,
+					"worklogs": []
+				},
+				"workratio": -1
+			},
+			"id": "10024",
+			"key": "RBF-3",
+			"self": "https://squash123.atlassian.net/rest/api/2/issue/10024"
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+			"fields": {
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"aggregatetimeestimate": "None",
+				"aggregatetimeoriginalestimate": "None",
+				"aggregatetimespent": "None",
+				"assignee": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"attachment": [],
+				"comment": {
+					"comments": [],
+					"maxResults": 0,
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/10023/comment",
+					"startAt": 0,
+					"total": 0
+				},
+				"components": [],
+				"created": "2023-10-12T09:39:11.627+0100",
+				"creator": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": "None",
+				"customfield_10002": "None",
+				"customfield_10003": "None",
+				"customfield_10004": "None",
+				"customfield_10005": "None",
+				"customfield_10006": "None",
+				"customfield_10007": "None",
+				"customfield_10008": "None",
+				"customfield_10009": "None",
+				"customfield_10010": "None",
+				"customfield_10014": "None",
+				"customfield_10015": "None",
+				"customfield_10016": "None",
+				"customfield_10017": "None",
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": "false",
+					"nonEditableReason": {
+						"message": "The ",
+						"reason": "PLUGIN_LICENSE_ERROR"
+					},
+					"showField": "false"
+				},
+				"customfield_10019": "0|i0004r:",
+				"customfield_10020": [
+					{
+						"boardId": 1,
+						"endDate": "2023-10-26T09:42:20.000Z",
+						"goal": "",
+						"id": 1,
+						"name": "KAN Sprint 1",
+						"startDate": "2023-10-12T09:42:25.691Z",
+						"state": "active"
+					}
+				],
+				"customfield_10021": "None",
+				"customfield_10022": "None",
+				"customfield_10023": "None",
+				"customfield_10024": "None",
+				"customfield_10025": "None",
+				"customfield_10026": "None",
+				"customfield_10027": "None",
+				"customfield_10028": "None",
+				"customfield_10029": "None",
+				"customfield_10030": "None",
+				"customfield_10032": "None",
+				"customfield_10034": "None",
+				"customfield_10035": "None",
+				"customfield_10036": "None",
+				"customfield_10037": "None",
+				"customfield_10038": "None",
+				"description": "None",
+				"duedate": "None",
+				"environment": "None",
+				"fixVersions": [],
+				"issuelinks": [],
+				"issuerestriction": {
+					"issuerestrictions": {},
+					"shouldDisplay": "True"
+				},
+				"issuetype": {
+					"avatarId": 10315,
+					"description": "Stories track ",
+					"entityId": "6e1cd64d-a51a-44cd-ab44-4130f94bfdc1",
+					"hierarchyLevel": 0,
+					"iconUrl": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+					"id": "10006",
+					"name": "Story",
+					"self": "https://squash123.atlassian.net/rest/api/2/issuetype/10006",
+					"subtask": "false"
+				},
+				"labels": [],
+				"lastViewed": "2023-10-13T14:55:57.632+0100",
+				"priority": {
+					"iconUrl": "https://squash123.atlassian.net/images/icons/priorities/medium.svg",
+					"id": "3",
+					"name": "Medium",
+					"self": "https://squash123.atlassian.net/rest/api/2/priority/3"
+				},
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"project": {
+					"avatarUrls": {
+						"16x16": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=xsmall",
+						"24x24": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=small",
+						"32x32": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=medium",
+						"48x48": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412"
+					},
+					"id": "10000",
+					"key": "RBF",
+					"name": "RBF_DEMO_PROJECT",
+					"projectTypeKey": "software",
+					"self": "https://squash123.atlassian.net/rest/api/2/project/10000",
+					"simplified": "True"
+				},
+				"reporter": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"resolution": "None",
+				"resolutiondate": "None",
+				"security": "None",
+				"status": {
+					"description": "",
+					"iconUrl": "https://squash123.atlassian.net/",
+					"id": "10001",
+					"name": "In Progress",
+					"self": "https://squash123.atlassian.net/rest/api/2/status/10001",
+					"statusCategory": {
+						"colorName": "yellow",
+						"id": 4,
+						"key": "indeterminate",
+						"name": "In Progress",
+						"self": "https://squash123.atlassian.net/rest/api/2/statuscategory/4"
+					}
+				},
+				"statuscategorychangedate": "2023-10-13T14:55:59.348+0100",
+				"subtasks": [],
+				"summary": "gherking valid login",
+				"timeestimate": "None",
+				"timeoriginalestimate": "None",
+				"timespent": "None",
+				"timetracking": {},
+				"updated": "2023-10-13T14:55:59.348+0100",
+				"versions": [],
+				"votes": {
+					"hasVoted": "false",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-2/votes",
+					"votes": 0
+				},
+				"watches": {
+					"isWatching": "True",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-2/watchers",
+					"watchCount": 1
+				},
+				"worklog": {
+					"maxResults": 20,
+					"startAt": 0,
+					"total": 0,
+					"worklogs": []
+				},
+				"workratio": -1
+			},
+			"id": "10023",
+			"key": "RBF-2",
+			"self": "https://squash123.atlassian.net/rest/api/2/issue/10023"
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+			"fields": {
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"aggregatetimeestimate": "None",
+				"aggregatetimeoriginalestimate": "None",
+				"aggregatetimespent": "None",
+				"assignee": "None",
+				"attachment": [],
+				"comment": {
+					"comments": [],
+					"maxResults": 0,
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/10022/comment",
+					"startAt": 0,
+					"total": 0
+				},
+				"components": [],
+				"created": "2023-10-12T09:38:54.707+0100",
+				"creator": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": "None",
+				"customfield_10002": "None",
+				"customfield_10003": "None",
+				"customfield_10004": "None",
+				"customfield_10005": "None",
+				"customfield_10006": "None",
+				"customfield_10007": "None",
+				"customfield_10008": "None",
+				"customfield_10009": "None",
+				"customfield_10010": "None",
+				"customfield_10014": "None",
+				"customfield_10015": "None",
+				"customfield_10016": "None",
+				"customfield_10017": "None",
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": "false",
+					"nonEditableReason": {
+						"message": "The ",
+						"reason": "PLUGIN_LICENSE_ERROR"
+					},
+					"showField": "false"
+				},
+				"customfield_10019": "0|i0004v:",
+				"customfield_10020": [
+					{
+						"boardId": 1,
+						"endDate": "2023-10-26T09:42:20.000Z",
+						"goal": "",
+						"id": 1,
+						"name": "KAN Sprint 1",
+						"startDate": "2023-10-12T09:42:25.691Z",
+						"state": "active"
+					}
+				],
+				"customfield_10021": "None",
+				"customfield_10022": "None",
+				"customfield_10023": "None",
+				"customfield_10024": "None",
+				"customfield_10025": "10000_*:*_1_*:*_15673861_*|*_10002_*:*_1_*:*_0",
+				"customfield_10026": "None",
+				"customfield_10027": "None",
+				"customfield_10028": "None",
+				"customfield_10029": "None",
+				"customfield_10030": "None",
+				"customfield_10032": "None",
+				"customfield_10034": "None",
+				"customfield_10035": "None",
+				"customfield_10036": "None",
+				"customfield_10037": "None",
+				"customfield_10038": "None",
+				"description": "None",
+				"duedate": "None",
+				"environment": "None",
+				"fixVersions": [],
+				"issuelinks": [],
+				"issuerestriction": {
+					"issuerestrictions": {},
+					"shouldDisplay": "True"
+				},
+				"issuetype": {
+					"avatarId": 10315,
+					"description": "Stories track ",
+					"entityId": "6e1cd64d-a51a-44cd-ab44-4130f94bfdc1",
+					"hierarchyLevel": 0,
+					"iconUrl": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+					"id": "10006",
+					"name": "Story",
+					"self": "https://squash123.atlassian.net/rest/api/2/issuetype/10006",
+					"subtask": "false"
+				},
+				"labels": [],
+				"lastViewed": "2023-10-12T14:00:13.262+0100",
+				"priority": {
+					"iconUrl": "https://squash123.atlassian.net/images/icons/priorities/medium.svg",
+					"id": "3",
+					"name": "Medium",
+					"self": "https://squash123.atlassian.net/rest/api/2/priority/3"
+				},
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"project": {
+					"avatarUrls": {
+						"16x16": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=xsmall",
+						"24x24": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=small",
+						"32x32": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412?size=medium",
+						"48x48": "https://squash123.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10412"
+					},
+					"id": "10000",
+					"key": "RBF",
+					"name": "RBF_DEMO_PROJECT",
+					"projectTypeKey": "software",
+					"self": "https://squash123.atlassian.net/rest/api/2/project/10000",
+					"simplified": "True"
+				},
+				"reporter": {
+					"accountId": "5d0fc48a9b5b8a0c21ee47db",
+					"accountType": "atlassian",
+					"active": "True",
+					"avatarUrls": {
+						"16x16": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"24x24": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"32x32": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png",
+						"48x48": "https://secure.gravatar.com/avatar/364cf8dc4d3fca641a1de24e03e7baf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-5.png"
+					},
+					"displayName": "Youness Mourtaji",
+					"emailAddress": "mourtaji.y@gmail.com",
+					"self": "https://squash123.atlassian.net/rest/api/2/user?accountId=5d0fc48a9b5b8a0c21ee47db",
+					"timeZone": "Africa/Casablanca"
+				},
+				"resolution": {
+					"description": "Work has been completed ",
+					"id": "10000",
+					"name": "Done",
+					"self": "https://squash123.atlassian.net/rest/api/2/resolution/10000"
+				},
+				"resolutiondate": "2023-10-12T14:00:08.540+0100",
+				"security": "None",
+				"status": {
+					"description": "",
+					"iconUrl": "https://squash123.atlassian.net/",
+					"id": "10002",
+					"name": "Done",
+					"self": "https://squash123.atlassian.net/rest/api/2/status/10002",
+					"statusCategory": {
+						"colorName": "green",
+						"id": 3,
+						"key": "done",
+						"name": "Done",
+						"self": "https://squash123.atlassian.net/rest/api/2/statuscategory/3"
+					}
+				},
+				"statuscategorychangedate": "2023-10-12T14:00:08.546+0100",
+				"subtasks": [],
+				"summary": "web valid login",
+				"timeestimate": "None",
+				"timeoriginalestimate": "None",
+				"timespent": "None",
+				"timetracking": {},
+				"updated": "2023-10-12T14:00:08.546+0100",
+				"versions": [],
+				"votes": {
+					"hasVoted": "false",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-1/votes",
+					"votes": 0
+				},
+				"watches": {
+					"isWatching": "True",
+					"self": "https://squash123.atlassian.net/rest/api/2/issue/RBF-1/watchers",
+					"watchCount": 1
+				},
+				"worklog": {
+					"maxResults": 20,
+					"startAt": 0,
+					"total": 0,
+					"worklogs": []
+				},
+				"workratio": -1
+			},
+			"id": "10022",
+			"key": "RBF-1",
+			"self": "https://squash123.atlassian.net/rest/api/2/issue/10022"
+		}
+	],
+	"maxResults": 50,
+	"startAt": 0,
+	"total": 10
+}
