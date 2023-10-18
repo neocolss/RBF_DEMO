@@ -22,7 +22,7 @@ Open calculator
 *** Test Cases ***
 Test calculator APK
     [Documentation]     Test Calulator apk on emulated android device
-    [Tags]  RBD-13  MOBILE
+    [Tags]  RBF-13  MOBILE
     Open calculator
     AppiumLibrary.Click Element    xpath=//android.widget.Button[contains(@text,'6')]
     Click Element    xpath=//android.widget.Button[contains(@text,'+')]

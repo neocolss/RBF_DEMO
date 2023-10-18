@@ -5,8 +5,6 @@ Documentation     A test suite with a single Gherkin style test.
 ...               valid_login.robot file.
 ##Resources
 Resource    ../core/home_page_core.robot
-
-Resource     ../../jira_api/Jira.resource
 #Test Teardown     Run keywords   Close Browser
 #...     Save Status
 Test Teardown   Close Browser
