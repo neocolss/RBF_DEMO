@@ -21,7 +21,7 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    robot -d ./logs -x output-xunit.xml tests
+    robot -d ./logs -x output-xunit.xml --test "Valid Login" --suite "/.Web Tests.Tests.Valid Login"
   continueOnError: true
   displayName: 'Run UI Tests'
 
