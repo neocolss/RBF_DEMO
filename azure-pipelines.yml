@@ -2,7 +2,7 @@ trigger:
 - main
 
 jobs:
-- job: "Test"
+- job: "Run RobotFramework Tests"
 pool:
   vmImage: "windows-2022"
   strategy:
