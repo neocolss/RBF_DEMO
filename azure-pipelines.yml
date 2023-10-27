@@ -1,20 +1,32 @@
 trigger:
 - main
 
-jobs:
-- job: "Run_RobotFramework_Tests"
 pool:
-  vmImage: "windows-2022"
-  strategy:
-   matrix:
-    Python37:
-     python.version: "3.7"
-     maxParallel: 1
-    steps:
-     - task: UsePythonversion@0
-    inputs:
-      versionSpec: "$(python.version)"
-      architecture: "x64"
-      -script: pip install robotframework robotframework-seleniumlibrary && npm install chromedriver
-      displayName: "Install dependencies"
-      -powershell: python -m robot --test "Valid Login" --suite "/.Web Tests.Tests.Valid Login"
+  vmImage: windows-latest
+strategy:
+  matrix:
+    Python38:
+      python.version: '3.8'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '$(python.version)'
+  displayName: 'Use Python $(python.version)'
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    rfbrowser init
+  displayName: 'Install dependencies'
+
+- script: |
+    robot -d ./logs -x output-xunit.xml tests
+  continueOnError: true
+  displayName: 'Run UI Tests'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: 'logs/output-xunit.xml'
+  displayName: 'Publish Test Results'
